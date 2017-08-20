@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html><head>
   <title>anonreply</title>
@@ -41,21 +43,22 @@
 </br>
 <center>
             <div class="well" style="height: 350px; width: 350px;">
+
             
                     <h3>Log In</h3>
                    
-                    <form class="form-horizontal" role="form" action="{% url 'retest:login_user'%}" method="post" enctype="multipart/form-data">
+                    <form class="form-horizontal" role="form" method="post" action="connect.php"  enctype="multipart/form-data">
                        
                         <div class="form-group">
                             
                             
-                                <input id="id_username" maxlength="30" name="username" type="text" placeholder="Username" class="form-control">
+                                <input id="email" maxlength="30" name="email" type="text" placeholder="email" class="form-control">
                             </div>
                         
                         <div class="form-group">
                             
                             
-                                <input id="id_password" maxlength="30" name="password" type="password" placeholder="Password" class="form-control">
+                                <input id="password" maxlength="30" name="password" type="password" placeholder="Password" class="form-control">
                             </div>
 
                         
@@ -63,12 +66,10 @@
                             
                                 <button type="submit" class="btn btn-lg btn-block btn-primary">Login</button>
                                 <input type="hidden" name="next" value="" />
-                        
-                    </form>
+                                </form>
                     
                     </div>
                     </center>
-
 
     
     

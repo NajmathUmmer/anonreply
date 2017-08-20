@@ -1,3 +1,6 @@
+<?php
+   include('session.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,8 +29,8 @@
                        Register 
                     </a></li>
 
-          <li><a href="login.php">
-                         Login
+          <li><a href="logout.php">
+                         Logout
                     </a></li>
 
         </ul>
