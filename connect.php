@@ -9,7 +9,7 @@
 
 
 // Connect to the database
-$db = mysqli_connect("localhost","root","stevejobsbhagh","anreply");
+$db = mysqli_connect("localhost","root","**********","anreply");
 // Make sure we connected successfully
 if(! $db)
 {
